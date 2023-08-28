@@ -20,13 +20,13 @@ export default function FoodReviewPage() {
       <Divider my="sm" />
       <Group position="center">
         <Title align="center" order={4}>Elon Musk</Title>
-        <Rating defaultValue={5} size="sm"/>
+        <Rating value={5} size="sm" readOnly/>
       </Group>
       <Text c="dimmed" align="center">Best pizza in this world. I give you X score.</Text>
       <Divider my="sm" />
       <Group position="center">
         <Title align="center" order={4}>Mark Zuck</Title>
-        <Rating defaultValue={4} size="sm"/>
+        <Rating value={4} size="sm" readOnly/>
       </Group>
       <Text c="dimmed" align="center">My favourite part is pepperoni</Text>
 
